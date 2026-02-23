@@ -1,5 +1,7 @@
 # kanji-classification-challenge
 
+Ce projet est une étude de cas pratique réalisée dans le cadre du cours d'introduction au machine learning.
+
 Projet Python de classification de kanjis (KNN, régression logistique, réseau de neurones MLP et CNN) avec visualisation t-SNE.
 
 ## Contenu
