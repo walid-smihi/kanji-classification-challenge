@@ -1,0 +1,5 @@
+- kanji_train_data.csv, kanji_target_data.csv have to be in a "starting_k/" sub folder
+- kanji_test_data have to be in the current directory
+- kanji_test_predictions is generating  in current directory.
+- all algorithms are explaining in script comment tags
+- Answering questions on "Rapport
