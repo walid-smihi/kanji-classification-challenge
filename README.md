@@ -1,4 +1,4 @@
-# Walid Smihi Challenge
+# kanji-classification-challenge
 
 Projet Python de classification de kanjis (KNN, régression logistique, réseau de neurones MLP et CNN) avec visualisation t-SNE.
 
@@ -45,17 +45,9 @@ python Script_knn_classification_test.py
 
 Tu peux lancer de la même manière les autres scripts `.py`.
 
-## Publication sur GitHub
+## Résultats
 
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin <URL_DU_REPO_GITHUB>
-git push -u origin main
-```
+Un résumé des performances et de l'analyse est disponible dans le rapport complet :
 
-## Remarque
+- [Rapport d'étude de cas](./Rapport.pdf)
 
-Ce dépôt contient des scripts Python (un projet de code), pas un exécutable binaire.
