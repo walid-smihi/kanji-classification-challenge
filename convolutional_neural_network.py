@@ -7,9 +7,12 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
 # Vérifier si CUDA est disponible et sélectionner le device
-print(torch.cuda.get_device_name(0))  # 0 corresponds to the first GPU
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {device}")
+if torch.cuda.is_available():
+    device = torch.device("cuda")
+    print(f"Using device: {device} ({torch.cuda.get_device_name(0)})")
+else:
+    device = torch.device("cpu")
+    print("Using device: cpu (CUDA not available)")
 
 # Charger et préparer les données
 data_train = np.loadtxt("starting_k/kanji_train_data.csv", delimiter=",", dtype=np.float32)
